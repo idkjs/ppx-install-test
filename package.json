@@ -1,5 +1,5 @@
 {
-  "name": "rescript-project-template",
+  "name": "ppx-install-test",
   "version": "0.0.1",
   "scripts": {
     "build": "rescript",

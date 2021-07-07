@@ -1,4 +1,4 @@
-# ReScript Project Template
+# ppx-install test
 
 The only official ReScript starter template.
 

@@ -1,0 +1,19 @@
+{
+  "name": "rescript-project-template",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "rescript",
+    "build:ppx": "npx ppx-install --build",
+    "build:clean": "npx ppx-install --clean",
+    "clean": "rescript clean -with-deps",
+    "start": "rescript build -w"
+  },
+  "keywords": [ "rescript" ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "rescript": "*",
+    "ppx-install": "^0.3.0"
+  },
+  "ppx": [ "@opam/ppx_let", "@opam/ppx_sexp_conv" ]
+}
